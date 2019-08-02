@@ -1,0 +1,47 @@
+h1 {color:blue; font-size:32px;}
+
+.redParagraph {
+  color:white;
+}
+
+#lastParagraph {
+  font-size: 20px;
+}
+
+#sectionTwo {
+  font-family: cursive;
+  color:white
+}
+
+#pigeons {
+  font-family: "Comic Sans MS";
+}
+
+#owls {
+  font-family: "Comic Sans MS";
+  color:white;
+  font-size: 20px;
+}
+
+#hum {
+  color:white;
+  font-size: 20px;
+}
+
+ul#list li {
+	display:inline;
+	list-style-type:none;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	line-height: 20px;
+	 padding:40px;
+	}
+
+body {
+  background-color:#4682B4
+}
+
+h3 {
+  color:white;
+}

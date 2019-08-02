@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <title>Hummingbirds</title>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+<body>
+<h1><center>🦇Hummingbirds🦆</h1></center>
+
+<center><ul id="list">
+<li><a href="index.html" onmouseover="resizeText(this)" onmouseout="decreaseText(this)">HOME</a></li>
+<li><a href="hummingbirds.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Hummingbirds</a></li>
+<li><a href="owls.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Owls</a></li>
+<li><a href="pigeons.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Pigeons</a></li>
+</ul></center>
+
+<center><img onmouseover="resizeImg(this, 600, 900)" onmouseout="resizeImg(this, 400, 600)" src="https://www.wbu.com/wp-content/uploads/2016/06/700x400-bird-hummingbird-ruby-throated-wbu5331.jpg">
+  </img> </center>
+  <p id="hum"> Hummingbirds are birds native to the Americas and constitute the biological family Trochilidae. They are the smallest of birds, most species measuring 7.5–13 cm (3–5 in) in length. The smallest extant bird species is the 5 cm (2.0 in) bee hummingbird, which weighs less than 2.0 g (0.07 oz).
+  They are known as hummingbirds because of the humming sound created by their beating wings which flap at high frequencies audible to humans. They hover in mid-air at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species, to in excess of 80 in some of the smallest. Of those species that have been measured in wind tunnels, their top speed exceeds 15 m/s (54 km/h; 34 mph) and some species can dive at speeds in excess of 22 m/s (79 km/h; 49 mph)
+  </p>
+<center><img onmouseover="resizeImg(this, 600, 900)" onmouseout="resizeImg(this, 500, 700)" alt="a hummingbird" src="https://i.ytimg.com/vi/EQZ_BYjfIy8/maxresdefault.jpg" width=60% height=60%>
+  </img></center>
+
+
+</body>
+<script>
+  function resizeText(element) {
+    element.style = "font-size: 30px";
+  }
+
+  function decreaseText(element) {
+    element.style = "font-size: 20px"
+  }
+
+  function resizeImg(img, height, width){
+    img.height = height;
+    img.width = width;
+  }
+
+
+</script>
+
+
+</html>

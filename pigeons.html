@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <title>Pigeons</title>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+<body>
+<h1><center>🐦Pigeons🐔</h1></center>
+
+<center><ul id="list">
+<li><a href="index.html" onmouseover="resizeText(this)" onmouseout="decreaseText(this)">HOME</a></li>
+<li><a href="hummingbirds.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Hummingbirds</a></li>
+<li><a href="owls.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Owls</a></li>
+<li><a href="pigeons.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Pigeons</a></li>
+</ul></center>
+
+
+<h3>Feral Pigeons</h3>
+<p onmouseover="makePink(this)" onmouseout="makeBlack(this)" id="pigeons"> Feral pigeons (Columba livia domestica), also called city doves, city pigeons, or street pigeons,[3][4] are pigeons that are derived from the domestic pigeons that have returned to the wild.[5] The domestic pigeon was originally bred from the wild rock dove, which naturally inhabits sea-cliffs and mountains.[6] Rock (i.e., "wild"), domestic, and feral pigeons are all the same species and will readily interbreed. Feral pigeons find the ledges of buildings to be a substitute for sea cliffs, have become adapted to urban life, and are abundant in towns and cities throughout much of the world.[7] Due to their abilities to create large amounts of excrement and to carry disease, combined with crop and property damage, pigeons are largely considered a nuisance and an invasive species, with steps being taken in many municipalities to lower their numbers or completely eradicate them
+</p>
+
+<center><img onmouseover="resizeImg(this, 600, 900)" onmouseout="resizeImg(this, 400, 600)" src ="https://upload.wikimedia.org/wikipedia/commons/4/4d/Rock_Pigeon_Columba_livia.jpg" width=600 length=300></img></center>
+  </body>
+
+  <script>
+    function makePink(element) {
+      element.style.color = "pink"
+    }
+
+    function makeBlack(element) {
+      element.style.color = "black"
+    }
+
+    function resizeImg(img, height, width){
+      img.height = height;
+      img.width = width;
+    }
+
+    function resizeText(element) {
+      element.style = "font-size: 30px";
+    }
+
+    function decreaseText(element) {
+      element.style = "font-size: 20px"
+    }
+
+  </script>
+
+
+  </html>

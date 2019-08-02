@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <title>Homepage</title>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+      <h1> <center> 🐧Birds🐧 </center></h1>
+     <center><ul id="list">
+    <li><a href="index.html" onmouseover="resizeText(this)" onmouseout="decreaseText(this)">HOME</a></li>
+    <li><a href="hummingbirds.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Hummingbirds</a></li>
+    <li><a href="owls.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Owls</a></li>
+    <li><a href="pigeons.html"  onmouseover="resizeText(this)" onmouseout="decreaseText(this)">Pigeons</a></li>
+    </ul></center>
+
+   <p onmouseover="makeRed(this)" onmouseout="makeWhite(this)" style="text-indent:25px">Birds, also known as Aves or avian <a href="https://www.nhm.ac.uk/discover/dino-directory/name/t/gallery.html" target="_blank">dinosaurs</a>, are a group of endothermic vertebrates, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5 cm (2 in) bee hummingbird to the 2.75 m (9 ft) ostrich. They rank as the world's most numerically-successful class of tetrapods, with approximately ten thousand living species, more than half of these being passerines, sometimes known as perching birds. </p>
+
+
+<div id="sectionTwo">
+    <p onmouseover="makeRed(this)" onmouseout="makeWhite(this)" style="text-indent:25px" id="lastParagraph">Birds have wings which are more or less developed depending on the species; the only known groups without wings are the extinct moa and elephant birds. Wings, which evolved from forelimbs, gave birds the ability to fly, although further evolution has led to the loss of flight in flightless birds, including ratites, penguins, and diverse endemic island species of birds. The digestive and respiratory systems of birds are also uniquely adapted for flight. Some bird species of aquatic environments, particularly seabirds and some waterbirds, have further evolved for swimming.
+      </p>
+</div>
+    <center> <img onmouseover="resizeImg(this, 600, 900)" onmouseout="resizeImg(this, 400, 600)" alt="a bird" src="https://www.wbu.com/wp-content/uploads/2016/07/540x340-found-a-bird-450x283.jpg" alt="bird"></img></center>
+  </body>
+
+  <script>
+    function makeRed(element) {
+      element.style.color = "red";
+    }
+
+    function makeWhite(element) {
+      element.style.color = "white";
+    }
+
+    function resizeText(element) {
+      element.style = "font-size: 30px";
+    }
+
+    function decreaseText(element) {
+      element.style = "font-size: 20px"
+    }
+
+    function resizeImg(img, height, width){
+      img.height = height;
+      img.width = width;
+    }
+
+
+  </script>
+
+</html>
